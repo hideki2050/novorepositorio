@@ -1,0 +1,38 @@
+/** Folha de estilo customizada */
+.app-shimmer .shimmer-img:before {
+  background: linear-gradient(to right, var(--incrivel-primariaDarken) 8%, var(--incrivel-primaria) 18%, var(--incrivel-primariaDarken) 33%) !important; }
+
+.vendasExpressNumsSelect .item {
+  color: #a1a1a1 !important; }
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #fdfdfd !important;
+  border-color: #202020 !important; }
+
+:root {
+    --incrivel-bg: #f1f1f1;
+    --incrivel-border: #d1d1d1;
+    --incrivel-bgColor: #323232;
+    --incrivel-bgLink: #202020;
+    --incrivel-bgLinkHover: var(--incrivel-primaria);
+    --incrivel-rgba: 255, 255, 255;
+    --incrivel-rgbaInvert: 0, 0, 0;
+    --incrivel-formBg: #fff;
+    --incrivel-formBgHover: #d9d9d9;
+    --incrivel-formBgHoverColor: #545454;
+    --incrivel-formBorder: #c9c9c9;
+    --incrivel-formColor: #5a5a5a;
+    --incrivel-cardBg: #fff;
+    --incrivel-cardColor: #171717;
+    --incrivel-cardLink: #000;
+    --incrivel-modalBg: #fff;
+    --incrivel-modalBorder: #eee;
+    --incrivel-modalColor: #333;
+    --incrivel-primaria: #161616;
+    --incrivel-primariaColor: #fff;
+    --incrivel-primariaLink: #fff;
+    --incrivel-primariaLinkHover: #fff;
+    --incrivel-primariaDarken: #e4e4e4;
+    --incrivel-primariaDarkenColor: #323232;
+    --incrivel-primariaDarkenLink: #fff;
+    --incrivel-primariaDarkenLinkHover: #fff; }
